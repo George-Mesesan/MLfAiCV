@@ -1,0 +1,137 @@
+digraph Tree {
+0 [label="X[378] <= -0.5000\nentropy = 3.31987092676\nsamples = 60000", shape="box"] ;
+1 [label="X[489] <= -0.5000\nentropy = 2.93747941791\nsamples = 26610", shape="box"] ;
+0 -> 1 ;
+2 [label="X[318] <= -0.5000\nentropy = 2.31226519629\nsamples = 11448", shape="box"] ;
+1 -> 2 ;
+3 [label="X[658] <= -0.5000\nentropy = 2.28468940778\nsamples = 2517", shape="box"] ;
+2 -> 3 ;
+4 [label="X[543] <= -0.5000\nentropy = 1.2370349359\nsamples = 1172", shape="box"] ;
+3 -> 4 ;
+5 [label="entropy = 0.4790\nsamples = 721\nvalue = [   8.    2.    4.    7.    2.    8.    7.    2.  680.    1.]", shape="box"] ;
+4 -> 5 ;
+6 [label="entropy = 1.9397\nsamples = 451\nvalue = [   1.   17.    1.   12.   53.   11.    0.   29.  267.   60.]", shape="box"] ;
+4 -> 6 ;
+7 [label="X[575] <= -0.5000\nentropy = 2.42032035867\nsamples = 1345", shape="box"] ;
+3 -> 7 ;
+8 [label="entropy = 1.7953\nsamples = 733\nvalue = [   9.    7.   30.    4.   34.    9.  459.    4.  139.   38.]", shape="box"] ;
+7 -> 8 ;
+9 [label="entropy = 2.2846\nsamples = 612\nvalue = [   2.    4.   45.    3.  180.   13.   32.   17.   72.  244.]", shape="box"] ;
+7 -> 9 ;
+10 [label="X[550] <= -0.5000\nentropy = 1.89131292745\nsamples = 8931", shape="box"] ;
+2 -> 10 ;
+11 [label="X[658] <= -0.5000\nentropy = 2.12684717008\nsamples = 1259", shape="box"] ;
+10 -> 11 ;
+12 [label="entropy = 1.7900\nsamples = 303\nvalue = [   3.    8.   39.   88.    1.    1.    3.    2.  157.    1.]", shape="box"] ;
+11 -> 12 ;
+13 [label="entropy = 1.7562\nsamples = 956\nvalue = [   1.   21.  582.   45.   21.    5.  219.    4.   39.   19.]", shape="box"] ;
+11 -> 13 ;
+14 [label="X[235] <= -0.5000\nentropy = 1.55217333132\nsamples = 7672", shape="box"] ;
+10 -> 14 ;
+15 [label="entropy = 2.4241\nsamples = 890\nvalue = [   0.  113.  179.   52.   15.    4.    6.  196.  299.   26.]", shape="box"] ;
+14 -> 15 ;
+16 [label="entropy = 1.2309\nsamples = 6782\nvalue = [    9.  5433.   344.    70.    90.    94.   117.    65.   490.    70.]", shape="box"] ;
+14 -> 16 ;
+17 [label="X[514] <= -0.5000\nentropy = 2.84156702064\nsamples = 15162", shape="box"] ;
+1 -> 17 ;
+18 [label="X[656] <= -0.5000\nentropy = 2.34480236006\nsamples = 3373", shape="box"] ;
+17 -> 18 ;
+19 [label="X[460] <= -0.5000\nentropy = 1.29972551988\nsamples = 1382", shape="box"] ;
+18 -> 19 ;
+20 [label="entropy = 0.8141\nsamples = 1016\nvalue = [  12.    5.   72.   11.    1.   13.   13.    2.  887.    0.]", shape="box"] ;
+19 -> 20 ;
+21 [label="entropy = 1.9847\nsamples = 366\nvalue = [  25.    0.    8.   82.    0.   44.   20.    0.  186.    1.]", shape="box"] ;
+19 -> 21 ;
+22 [label="X[269] <= -0.5000\nentropy = 2.39056830072\nsamples = 1991", shape="box"] ;
+18 -> 22 ;
+23 [label="entropy = 2.6285\nsamples = 731\nvalue = [  23.  124.  274.   60.   14.   61.   44.    0.  110.   21.]", shape="box"] ;
+22 -> 23 ;
+24 [label="entropy = 1.7607\nsamples = 1260\nvalue = [   5.   21.  140.   39.   10.   73.  813.    2.  150.    7.]", shape="box"] ;
+22 -> 24 ;
+25 [label="X[625] <= -0.5000\nentropy = 2.5555576455\nsamples = 11789", shape="box"] ;
+17 -> 25 ;
+26 [label="X[297] <= -0.5000\nentropy = 1.66517419168\nsamples = 4965", shape="box"] ;
+25 -> 26 ;
+27 [label="entropy = 1.0184\nsamples = 2537\nvalue = [  5.30000000e+01   8.00000000e+00   4.50000000e+01   2.13200000e+03
+   2.00000000e+00   1.08000000e+02   1.00000000e+01   4.00000000e+00
+   1.43000000e+02   3.20000000e+01]", shape="box"] ;
+26 -> 27 ;
+28 [label="entropy = 1.8123\nsamples = 2428\nvalue = [  4.20000000e+01   1.60000000e+01   7.00000000e+01   7.95000000e+02
+   7.00000000e+00   1.24000000e+03   3.00000000e+01   1.00000000e+00
+   1.83000000e+02   4.40000000e+01]", shape="box"] ;
+26 -> 28 ;
+29 [label="X[353] <= -0.5000\nentropy = 2.71485097184\nsamples = 6824", shape="box"] ;
+25 -> 29 ;
+30 [label="entropy = 2.1769\nsamples = 3495\nvalue = [    3.     5.    40.   624.   691.   200.    64.    83.   147.  1638.]", shape="box"] ;
+29 -> 30 ;
+31 [label="entropy = 2.6399\nsamples = 3329\nvalue = [  19.  787.   64.  882.  197.  793.   96.   46.  202.  243.]", shape="box"] ;
+29 -> 31 ;
+32 [label="X[568] <= -0.5000\nentropy = 3.06923731382\nsamples = 33390", shape="box"] ;
+0 -> 32 ;
+33 [label="X[462] <= -0.5000\nentropy = 2.26967005836\nsamples = 9687", shape="box"] ;
+32 -> 33 ;
+34 [label="X[347] <= -0.5000\nentropy = 1.99623727189\nsamples = 3822", shape="box"] ;
+33 -> 34 ;
+35 [label="X[484] <= -0.5000\nentropy = 2.08474181195\nsamples = 1233", shape="box"] ;
+34 -> 35 ;
+36 [label="entropy = 1.2796\nsamples = 565\nvalue = [  30.    0.   29.    0.   13.   20.  441.    0.   29.    3.]", shape="box"] ;
+35 -> 36 ;
+37 [label="entropy = 1.7954\nsamples = 668\nvalue = [   6.    1.   16.    8.   11.  252.   53.    9.  312.    0.]", shape="box"] ;
+35 -> 37 ;
+38 [label="X[345] <= -0.5000\nentropy = 1.33451558445\nsamples = 2589", shape="box"] ;
+34 -> 38 ;
+39 [label="entropy = 2.2233\nsamples = 375\nvalue = [   6.    0.   39.    1.   15.   59.  134.    0.  114.    7.]", shape="box"] ;
+38 -> 39 ;
+40 [label="entropy = 0.8340\nsamples = 2214\nvalue = [  3.00000000e+00   1.50000000e+01   1.94900000e+03   2.00000000e+01
+   1.00000000e+00   3.30000000e+01   6.70000000e+01   4.00000000e+01
+   8.00000000e+01   6.00000000e+00]", shape="box"] ;
+38 -> 40 ;
+41 [label="X[427] <= -0.5000\nentropy = 1.61332912852\nsamples = 5865", shape="box"] ;
+33 -> 41 ;
+42 [label="X[436] <= -0.5000\nentropy = 0.576324381106\nsamples = 3139", shape="box"] ;
+41 -> 42 ;
+43 [label="entropy = 2.2967\nsamples = 193\nvalue = [ 56.   0.  43.   1.   6.  15.  62.   1.   3.   6.]", shape="box"] ;
+42 -> 43 ;
+44 [label="entropy = 0.3246\nsamples = 2946\nvalue = [  2.83400000e+03   0.00000000e+00   2.90000000e+01   8.00000000e+00
+   7.00000000e+00   1.90000000e+01   4.00000000e+01   2.00000000e+00
+   3.00000000e+00   4.00000000e+00]", shape="box"] ;
+42 -> 44 ;
+45 [label="X[429] <= -0.5000\nentropy = 2.27619370377\nsamples = 2726", shape="box"] ;
+41 -> 45 ;
+46 [label="entropy = 1.4022\nsamples = 1135\nvalue = [ 835.    0.   56.    9.   10.   72.  125.    0.   25.    3.]", shape="box"] ;
+45 -> 46 ;
+47 [label="entropy = 2.3384\nsamples = 1591\nvalue = [ 338.   14.  372.  337.    2.  447.   19.   12.   37.   13.]", shape="box"] ;
+45 -> 47 ;
+48 [label="X[542] <= -0.5000\nentropy = 2.95289152046\nsamples = 23703", shape="box"] ;
+32 -> 48 ;
+49 [label="X[242] <= -0.5000\nentropy = 2.48832714319\nsamples = 5202", shape="box"] ;
+48 -> 49 ;
+50 [label="X[462] <= -0.5000\nentropy = 2.70353299136\nsamples = 1588", shape="box"] ;
+49 -> 50 ;
+51 [label="entropy = 2.5564\nsamples = 810\nvalue = [  12.   10.  234.    7.   55.   18.   21.  153.  223.   77.]", shape="box"] ;
+50 -> 51 ;
+52 [label="entropy = 1.8575\nsamples = 778\nvalue = [ 518.    1.   51.   11.   39.   37.   15.   17.   24.   65.]", shape="box"] ;
+50 -> 52 ;
+53 [label="X[657] <= -0.5000\nentropy = 1.92028429662\nsamples = 3614", shape="box"] ;
+49 -> 53 ;
+54 [label="entropy = 2.4031\nsamples = 545\nvalue = [ 142.    0.   41.   19.   11.   48.   54.    4.  215.   11.]", shape="box"] ;
+53 -> 54 ;
+55 [label="entropy = 1.5344\nsamples = 3069\nvalue = [  100.     4.   313.    23.   155.    87.  2243.    29.    63.    52.]", shape="box"] ;
+53 -> 55 ;
+56 [label="X[459] <= -0.5000\nentropy = 2.73935321909\nsamples = 18501", shape="box"] ;
+48 -> 56 ;
+57 [label="X[211] <= -0.5000\nentropy = 2.31208611966\nsamples = 7360", shape="box"] ;
+56 -> 57 ;
+58 [label="entropy = 2.2119\nsamples = 3232\nvalue = [   16.     4.   158.   100.   369.   363.   135.   168.   139.  1780.]", shape="box"] ;
+57 -> 58 ;
+59 [label="entropy = 1.8304\nsamples = 4128\nvalue = [  1.00000000e+01   2.00000000e+00   2.11000000e+02   4.00000000e+01
+   2.67900000e+03   2.38000000e+02   4.23000000e+02   1.28000000e+02
+   6.30000000e+01   3.34000000e+02]", shape="box"] ;
+57 -> 59 ;
+60 [label="X[404] <= -0.5000\nentropy = 2.52993286702\nsamples = 11141", shape="box"] ;
+56 -> 60 ;
+61 [label="entropy = 2.5786\nsamples = 2559\nvalue = [  19.   17.   96.  243.  704.  636.   21.   40.  297.  486.]", shape="box"] ;
+60 -> 61 ;
+62 [label="entropy = 2.0985\nsamples = 8582\nvalue = [  783.   103.   384.   398.   447.   400.   132.  5205.    73.   657.]", shape="box"] ;
+60 -> 62 ;
+}
